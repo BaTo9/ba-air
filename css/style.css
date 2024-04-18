@@ -642,4 +642,8 @@ header .showcase-con h1 p{
     }
     
 }
+@media (max-width: 500px){
+    display: flex;
+    
+}
 
