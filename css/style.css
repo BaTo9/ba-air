@@ -590,12 +590,8 @@ header .showcase-con h1 p{
 }
 @media (max-width: 952px)
 { 
-    .search-box button{
-      
-      position: absolute;
-      
-    }
-    label.logo{
+
+    nav .logo{
       
         font-size: 30px;
         padding-left: 10px;
