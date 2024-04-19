@@ -184,11 +184,22 @@ color: #333;
 }
 #navbar ul{
     display: flex;
+    float: right;
+    margin-right: 20px;
     align-items: center;
     list-style: none;
 }
+#navbar ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    text-align: center;
+    color: #fff;
+}
+
 #navbar ul li a{
-    display: flex;
+
    position: relative;
     justify-content: space-between;
     font-size: 1rem;
@@ -591,12 +602,12 @@ header .showcase-con h1 p{
 @media (max-width: 952px)
 { 
 
-    nav .logo{
+    #navbar .logo{
       
         font-size: 30px;
         padding-left: 10px;
     }
-    nav ul li a{
+    #navbar ul li a{
         font-size: 16px;
     }
 }
@@ -614,12 +625,12 @@ header .showcase-con h1 p{
         text-align: center;
         transition: all .3s;
     }
-    navbar ul li {
+    #navbar ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    navbar ul li a{
+    #navbar ul li a{
         font-size: 20px;
     }
     a:hover,a.active{
