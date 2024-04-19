@@ -603,9 +603,7 @@ header .showcase-con h1 p{
 
 @media (max-width: 858px)
 {
-    .checkbtn{
-        display: block;
-    }
+
     ul {
         position: fixed;
         width: 100%;
@@ -616,12 +614,12 @@ header .showcase-con h1 p{
         text-align: center;
         transition: all .3s;
     }
-    nav ul li {
+    navbar ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+    navbar ul li a{
         font-size: 20px;
     }
     a:hover,a.active{
