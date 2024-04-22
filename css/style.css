@@ -625,7 +625,7 @@ header .showcase-con h1 p{
 .menu-wrap .toggler{
 position: absolute;
 top: 0;
-left: 300px;
+left: 330px;
 z-index: 2;
 cursor: pointer;
 width: 50px;
@@ -636,7 +636,7 @@ opacity: 0;
 .menu-wrap .hamburger{
     position: absolute;
     top: 0;
-    left: 300px;
+    left: 330px;
     z-index: 1;
     width: 40px;
     height: 40px;
