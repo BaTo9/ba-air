@@ -740,7 +740,7 @@ opacity: 0;
     transition: color 0.4s ease;
 }
 .menu-wrap .menu > div > div > ul > li > a:hover{
-    background: #ed348e;
+    background: #93cb52;
     color: #b595ef;
     padding: 8px;
     border-radius: 5px;
