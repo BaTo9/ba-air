@@ -602,7 +602,7 @@ header .showcase-con h1 p{
 @media (max-width: 952px)
 { 
 
-    #navbar .logo{
+    .logo{
       
         font-size: 30px;
         padding-left: 10px;
@@ -614,7 +614,11 @@ header .showcase-con h1 p{
 
 @media (max-width: 450px)
 {
-
+.logo{
+    font-size: 30px;
+    paddin-left: 10px;
+}
+    
   .menu-wrap{
     position: fixed;
     top: 0;
