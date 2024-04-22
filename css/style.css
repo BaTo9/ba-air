@@ -617,6 +617,7 @@ header .showcase-con h1 p{
 .logo{
     font-size: 30px;
     paddin-left: 10px;
+    z-index: 2;
 }
     
   .menu-wrap{
