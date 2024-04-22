@@ -615,6 +615,7 @@ header .showcase-con h1 p{
 @media (max-width: 450px)
 {
 .logo{
+    display: flex;
     font-size: 30px;
     paddin-left: 10px;
     z-index: 2;
