@@ -736,7 +736,7 @@ opacity: 0;
 }
 .menu-wrap .menu > div > div > ul > li > a{
     text-decoration: none;
-    color: #fff;
+    color: #b595ef;
     transition: color 0.4s ease;
 }
 .menu-wrap .menu > div > div > ul > li > a:hover{
