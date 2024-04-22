@@ -615,64 +615,135 @@ header .showcase-con h1 p{
 @media (max-width: 858px)
 {
 
-    ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .3s;
-    }
-    #navbar ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    #navbar ul li a{
-        font-size: 20px;
-    }
-    a:hover,a.active{
-        background: none;
-        color: #fff;
-    }
-    #check:checked ~ ul{
-     left: 0;
-    }
-    header .search-box{
+  .menu-wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* checkbox */
+.menu-wrap .toggler{
+position: absolute;
+top: 0;
+left: 280px;
+z-index: 2;
+cursor: pointer;
+width: 50px;
+height: 50px;
+opacity: 0;
+}
+/* hamburgeriin fon */
+.menu-wrap .hamburger{
+    position: absolute;
+    top: 0;
+    left: 280px;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+    /* background: rgba( 244,244,244,0.5); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* hamburgeriin shugam */
+.menu-wrap .hamburger > div{
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 3px;
+    background: #312ecb;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s ease;
+}
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -12px;
+    width: 100%;
+    height: 3px;
+    background: inherit;
+    border-radius: 2px;
+}
+.menu-wrap .hamburger > div:after{
+    top: 12px;
+   
+}
+.menu-wrap .toggler:checked + .hamburger > div{
+    transform: rotate(135deg);
+}
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after{
+    top: 0;
+    transform: rotate(90deg);
+}
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+}
+.menu-wrap .toggler:checked ~ .menu{
+    visibility: visible;
+}
+.menu-wrap .toggler:checked ~ .menu > div{
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+}
+.menu-wrap .toggler:checked ~ .menu > div > div{
+    opacity: 1;
+    transition: opacity 0.4s ease 0.4s;
+}
+.menu-wrap .menu{
+    position: fixed;
+    top: 0;
+    left: 180;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-  position: relative;
-  min-height: 2rem;
+.menu-wrap .menu > div{
+    background: rgba(46, 117, 42, 0.5);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
 }
-.search-box input{
-  display: flex;
-  width: 60%;
-  height: 35px;
-  border: none;
-  outline: none;
-  background: #f2f2f2;
-  border-radius: 30px;
-  color: gray;
-  font-size: 16px;  
-  text-align: center;
-  align-items: center;
-  
-  padding-left: 10px;
-  padding-right: 40px;
-  
+.menu-wrap .menu > div > div{
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
 }
-.search-box button{
-  cursor: pointer;
-  width: 35px;
-  height: 35px;
-  border-radius: 30px;
-  border: none;
-  position: absolute;
-  top: 0;
-  right: 0px;
-  transform: scale(0.8);
-  background: #05C979;
+.menu-wrap .menu > div > div > ul > li{
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.menu-wrap .menu > div > div > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4s ease;
+}
+.menu-wrap .menu > div > div > ul > li > a:hover{
+    background: #ed348e;
+    color: #333;
+    padding: 8px;
+    border-radius: 5px;
 }
 }
 
