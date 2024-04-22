@@ -712,8 +712,8 @@ opacity: 0;
 .menu-wrap .menu > div{
     background: #333;
     border-radius: 50%;
-    width: 600vw;
-    height: 600vw;
+    width: 800vw;
+    height: 800vw;
     display: flex;
     flex: none;
     align-items: center;
@@ -730,7 +730,7 @@ opacity: 0;
 }
 .menu-wrap .menu > div > div > ul > li{
     list-style: none;
-    color: #fff;
+    color: #000;
     font-size: 1.5rem;
     padding: 1rem;
 }
