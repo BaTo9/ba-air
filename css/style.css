@@ -710,7 +710,7 @@ opacity: 0;
 }
 
 .menu-wrap .menu > div{
-    background: rgba(46, 117, 42, 0.5);
+    background: rgba(0,0,0,);
     border-radius: 50%;
     width: 200vw;
     height: 200vw;
