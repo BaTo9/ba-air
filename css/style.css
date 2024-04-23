@@ -670,10 +670,10 @@ header .showcase-con h1 p{
     left: 100%;
 }
 .logo a img{
-    display: flex;
+    
     font-size: 20px;
     paddin-left: 4px;
-    z-index: 2;
+    z-index: 5;
 }
     
   .menu-wrap{
