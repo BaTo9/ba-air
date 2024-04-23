@@ -651,7 +651,7 @@ header .showcase-con h1 p{
      top: 0;
      width: 98.9%;
      height: 50px;
-     z-index: 100;
+     z-index: 1;
      padding: 0.4rem;
      backdrop-filter: blur(10px);
      border-bottom: 2px solid rgba(255, 255, 255, .2);
@@ -671,8 +671,8 @@ header .showcase-con h1 p{
 }
 .logo{
     display: flex;
-    font-size: 30px;
-    paddin-left: 10px;
+    font-size: 20px;
+    paddin-left: 4px;
     z-index: 2;
 }
     
