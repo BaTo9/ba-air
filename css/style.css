@@ -154,7 +154,7 @@ color: #333;
     background: #222; */
  }
 /* navbar */
-#navbar{
+.menu-wrap{
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -169,7 +169,7 @@ color: #333;
      backdrop-filter: blur(10px);
      border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
-#navbar::before{
+.menu-wrap::before{
     content: '';
     position: absolute;
     top: 0;
@@ -179,7 +179,7 @@ color: #333;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
     transition: 1.2s;
 }
-#navbar:hover::before{
+.menu-wrap:hover::before{
     left: 100%;
 }
 #navbar ul{
@@ -601,7 +601,7 @@ header .showcase-con h1 p{
 }
 @media (max-width: 952px)
 { 
-#navbar{
+.menu-wrap{
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -616,7 +616,7 @@ header .showcase-con h1 p{
      backdrop-filter: blur(10px);
      border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
-#navbar::before{
+.menu-wrap::before{
     content: '';
     position: absolute;
     top: 0;
@@ -625,23 +625,22 @@ header .showcase-con h1 p{
     height: 100%;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
     transition: 1.2s;
-}
-#navbar:hover::before{
+}.menu-wrap:hover::before{
     left: 100%;
 }
-    .logo{
+    .logo a img{
       
         font-size: 30px;
         padding-left: 10px;
     }
-    #navbar ul li a{
+    .menu-wrap ul li a{
         font-size: 16px;
     }
 }
 
 @media (max-width: 450px)
 {
-    #navbar{
+    .menu-wrap{
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -656,7 +655,7 @@ header .showcase-con h1 p{
      backdrop-filter: blur(10px);
      border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
-#navbar::before{
+.menu-wrap::before{
     content: '';
     position: absolute;
     top: 0;
@@ -666,7 +665,7 @@ header .showcase-con h1 p{
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
     transition: 1.2s;
 }
-#navbar:hover::before{
+.menu-wrap:hover::before{
     left: 100%;
 }
 .logo a img{
