@@ -697,10 +697,10 @@ opacity: 0;
 .menu-wrap .hamburger{
     position: absolute;
     top: 0;
-    left: 330px;
+    left: 300px;
     z-index: 1;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding: 1rem;
     /* background: rgba( 244,244,244,0.5); */
     display: flex;
