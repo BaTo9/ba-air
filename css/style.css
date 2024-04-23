@@ -669,7 +669,7 @@ header .showcase-con h1 p{
 #navbar:hover::before{
     left: 100%;
 }
-.logo{
+.logo a img{
     display: flex;
     font-size: 20px;
     paddin-left: 4px;
