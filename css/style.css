@@ -847,7 +847,7 @@ opacity: 0;
     left: 100%;
 }
 .menu-wrap .logo a img{
-    display: inline-block;
+    display: flex;
     font-size: 20px;
     paddin-left: 4px;
     z-index: 5;
@@ -1101,7 +1101,7 @@ header .showcase-con h1 p{
     right: 50px;
     text-decoration: none;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     color: #fff;
     font-size: 22px;
 }
