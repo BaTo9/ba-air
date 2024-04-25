@@ -863,7 +863,7 @@ opacity: 0;
 .menu-wrap .toggler{
 position: absolute;
 top: 0;
-left: 300px;
+left: 320px;
 z-index: 2;
 cursor: pointer;
 width: 50px;
@@ -874,7 +874,7 @@ opacity: 0;
 .menu-wrap .hamburger{
     position: absolute;
     top: 0;
-    left: 300px;
+    left: 320px;
     z-index: 1;
     width: 35px;
     height: 35px;
