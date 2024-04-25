@@ -847,7 +847,7 @@ opacity: 0;
     left: 100%;
 }
 .menu-wrap .logo a img{
-    
+    display: inline-block;
     font-size: 20px;
     paddin-left: 4px;
     z-index: 5;
@@ -1089,7 +1089,7 @@ header .showcase-con h1 p{
 
 }
 
-
+/* дээш нь гүйлгэх товч*/
 .gotopbtn{
     position: fixed;
     width: 30px;
@@ -1097,7 +1097,7 @@ header .showcase-con h1 p{
     /* background: #27ae60; */
     background: rgba(97, 239, 26, 0.7);
     border-radius: 50%;
-    bottom: 40px;
+    bottom: 50px;
     right: 50px;
     text-decoration: none;
     text-align: center;
