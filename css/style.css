@@ -818,6 +818,13 @@ opacity: 0;
 
 @media (max-width: 450px)
 {
+    .menu-wrap .logo a img{
+    display: flex;
+    font-size: 20px;
+    paddin-left: 4px;
+    z-index: 5;
+}
+
     .menu-wrap{
     display: flex;
     justify-content: space-between;
@@ -846,12 +853,7 @@ opacity: 0;
 .menu-wrap:hover::before{
     left: 100%;
 }
-.menu-wrap .logo a img{
-    display: flex;
-    font-size: 20px;
-    paddin-left: 4px;
-    z-index: 5;
-}
+
     
   .menu-wrap{
     position: fixed;
@@ -1101,7 +1103,7 @@ header .showcase-con h1 p{
     right: 50px;
     text-decoration: none;
     text-align: center;
-    line-height: 40px;
+    line-height: 15px;
     color: #fff;
     font-size: 22px;
 }
