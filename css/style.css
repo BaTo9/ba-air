@@ -926,7 +926,7 @@ opacity: 0;
     transform: rotate(90deg);
 }
 .menu-wrap .toggler:checked:hover + .hamburger > div {
-    transform: rotate(225deg);
+    transform: rotate(360deg);
 }
 .menu-wrap .toggler:checked ~ .menu{
     visibility: visible;
