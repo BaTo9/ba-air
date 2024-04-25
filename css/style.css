@@ -1103,12 +1103,17 @@ header .showcase-con h1 p{
     background: rgba(97, 239, 26, 0.7);
     border-radius: 50%;
     bottom: 50px;
-    right: 50px;
+    right: 120px;
     text-decoration: none;
     text-align: center;
     line-height: 20px;
     color: #fff;
     font-size: 37px;
+    z-index: 6;
+}
+.gotopbtn{
+    font-size: 40px;
+    padding: 5px 0;
 }
 }
 
