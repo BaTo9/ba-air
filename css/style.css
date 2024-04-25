@@ -818,12 +818,7 @@ opacity: 0;
 
 @media (max-width: 450px)
 {
-    .menu-wrap .logo a img{
-    display: flex;
-    font-size: 10px;
-    paddin-left: 4px;
-    z-index: 5;
-}
+  
 
     .menu-wrap{
     display: flex;
@@ -872,6 +867,14 @@ width: 50px;
 height: 50px;
 opacity: 0;
 }
+/* Logo */
+  .menu-wrap .logo a img{
+    display: flex;
+    font-size: 5px;
+    paddin-left: 4px;
+    z-index: 5;
+}
+
 /* hamburgeriin fon */
 .menu-wrap .hamburger{
     position: absolute;
@@ -1103,7 +1106,7 @@ header .showcase-con h1 p{
     right: 50px;
     text-decoration: none;
     text-align: center;
-    line-height: 35px;
+    line-height: 15px;
     color: #fff;
     font-size: 37px;
 }
