@@ -975,12 +975,13 @@ opacity: 0;
 .menu-wrap .menu > div > div > ul > li > a{
     text-decoration: none;
     color: #b595ef;
-    font-size: 3rem;
+    font-size: 2.5rem;
     transition: color 0.4s ease;
 }
 .menu-wrap .menu > div > div > ul > li > a:hover{
     background: #93cb52;
     color: #333;
+    
     padding: 8px;
     border-radius: 5px;
 }
