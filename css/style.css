@@ -1094,8 +1094,8 @@ header .showcase-con h1 p{
 /* дээш нь гүйлгэх товч*/
 .gotopbtn{
     position: fixed;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     /* background: #27ae60; */
     background: rgba(97, 239, 26, 0.7);
     border-radius: 50%;
